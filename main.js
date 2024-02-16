@@ -43,7 +43,7 @@ function getRepos() {
           theUrl.appendChild(theUrlTxt);
 
           // add the hyper text refernce "href"
-          theUrl.href = `https://api.github.com/users/${theInput.value}/${repo.name}`;
+          theUrl.href = `https://github.com/${theInput.value}/${repo.name}`;
 
           // set attribute Target
           theUrl.setAttribute("Target", "_blank");
